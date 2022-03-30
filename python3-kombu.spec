@@ -8,7 +8,7 @@ Summary:	Messaging library for Python
 Summary(pl.UTF-8):	Biblioteka komunikatów dla Pythona
 Name:		python3-%{module}
 Version:	5.0.2
-Release:	3
+Release:	4
 License:	BSD
 Group:		Development/Languages/Python
 #Source0Download: https://pypi.org/simple/kombu/
