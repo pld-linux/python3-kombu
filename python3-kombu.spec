@@ -7,13 +7,13 @@
 Summary:	Messaging library for Python
 Summary(pl.UTF-8):	Biblioteka komunikatów dla Pythona
 Name:		python3-%{module}
-Version:	5.3.2
-Release:	3
+Version:	5.5.3
+Release:	1
 License:	BSD
 Group:		Development/Languages/Python
 #Source0Download: https://pypi.org/simple/kombu/
 Source0:	https://files.pythonhosted.org/packages/source/k/kombu/%{module}-%{version}.tar.gz
-# Source0-md5:	7d54254592a6456d4d56d9b3cc03f83c
+# Source0-md5:	b87c6d9bc662e186f0c32aaf5ee7368e
 URL:		https://pypi.org/project/kombu/
 BuildRequires:	python3-modules >= 1:3.8
 BuildRequires:	python3-setuptools >= 1:47.0.0
@@ -27,9 +27,7 @@ BuildRequires:	python3-backports.zoneinfo
 BuildRequires:	python3-botocore
 BuildRequires:	python3-hypothesis
 BuildRequires:	python3-pycurl
-# 7.3.1
-BuildRequires:	python3-pytest >= 7.2.1
-BuildRequires:	python3-pytest < 8
+BuildRequires:	python3-pytest
 BuildRequires:	python3-pytest-freezer
 BuildRequires:	python3-pytz
 BuildRequires:	python3-vine
